@@ -1,0 +1,28 @@
+SELECT
+    r.userID,
+    u.username,
+    t.name,
+    b.name
+FROM
+    rolesetup r
+JOIN users u ON
+    r.userID = u.id
+JOIN test t ON
+    r.testID = t.id
+JOIN roles b ON
+    r.roleID = b.id
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL,
+  `username` varchar(25) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `email` varchar(100) NOT NULL,
+   PRIMARY KEY(id)
+) 
+
+CREATE TABLE `test` (
+  `id` int(11) NOT NULL,
+  `testname` varchar(255) DEFAULT NULL,
+  `body` text,
+   PRIMARY KEY(testname)
+); 

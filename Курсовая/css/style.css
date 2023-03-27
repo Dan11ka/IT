@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+	
+   
+    color: #000000;
+    background-color: #F1F1F1;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Menu */
+
+header{
+    width: 100%;
+    height: 95px;
+	
+    background-color: #21606E;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+}
+
+img{
+    width: 4%;
+}
+
+.text-menu{
+    float: left;
+    margin-left: 20px;
+    margin-top: 34px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 24px;
+	color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav{
+    width: 25%;
+    float:  right;
+    margin-top: 36px;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.li {
+	position: relative;
+	margin: 0 12px;
+	
+	transition: all 0.4s ease;
+	text-decoration: none;
+	color: #fff;
+}
+
+.li::after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 0;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+	
+	transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+	background-color: #FFFFFF;
+}
+
+.li:hover::after {
+	width: 100%;
+	}
+
+
+
+/* Main */
+
+.zagalovok-main{
+	margin-top: 2%;
+	
+	text-align: center;
+	font-weight: 600;
+    font-size: 32px;
+    line-height: 22px;
+    color: #000000;	
+}
+
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    height: 95px;
+
+    background-color: #21606E;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.text-footer{
+	
+    text-align: center;	
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 90px;
+    color: #ffffff;
+}

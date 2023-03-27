@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Тест по основам PHP</title>
+</head>
+<body>
+    <main>
+      <h1 class="zag-main">Тест по основам PHP</h1>
+
+        <div class="question">
+          <p>Вопрос 1: Где указан верный оператор вывода?</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q1" value="0">show "";</label><br/>
+		  <label class="red__label"><input class="red__input" type="radio" name="q1" value="0">message "";</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q1" value="0">eho "";</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q1" value="1">echo "";</label><br/>
+       </div>
+  
+        <div class="question">
+          <p>Вопрос 2: Что такое MySQL?</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q2" value="0">Это язык программирования для работы с БД</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q2" value="0">Это база данных, а также язык запросов к ней</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q2" value="1">Это система для управления базой данных</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q2" value="0">Это технология для работы PHP и базы данных</label><br/>
+        </div>
+  
+        <div class="question">
+          <p>Вопрос 3: Какие операторы сравнения существуют?</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q3" value="0">>, <, ==, !=, <=, >=</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q3" value="1">>, <, ==, !=, <=, >=, ===</label><br/>
+		  <label class="red__label"><input class="red__input" type="radio" name="q3" value="0">>, <, ==, =!, <=, >=, ===</label><br/>
+		  <label class="red__label"><input class="red__input" type="radio" name="q3" value="0">>, <, ==, !=, <==, >==</label><br/>
+        </div>
+		
+		<div class="question">
+			<p>Вопрос 4: В чём ошибка в коде: echo ("Hi, this place is called "WinterGard'. It is cold here!"); ?</p>
+			<label class="green__label"><input class="green__input" type="radio" name="q4" value="1">Надо поставить \ перед "</label><br/>	
+			<label class="red__label"><input class="red__input" type="radio" name="q4" value="0">Надо поставить \ перед ' и перед "</label><br/>
+			<label class="red__label"><input class="red__input" type="radio" name="q4" value="0">Надо поставить \ перед '</label><br/>
+			<label class="red__label"><input class="red__input" type="radio" name="q4" value="0">Надо убрать скобки для echo - ()</label><br/>
+		</div>
+		
+        <div class="question">
+          <p>Вопрос 5: Для чего используется язык PHP?</p>
+          <label class="green__label"><input class="green__input" type="radio" name="q5" value="1">Для работы на сервере и базами данных</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q5" value="0">Для работы на сервере</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q5" value="0">Для работы с базами данных</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q5" value="0">Для работы со скриптами на стороне клиента</label><br/>
+        </div>
+
+        <div class="question">
+          <p>Вопрос 6: Что делает этот код: SELECT `id` FROM `table`?</p>
+          <label class="green__label"><input class="green__input" type="radio" name="q6" value="1">Выбирает id из таблицы table</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q6" value="0">Выбирает table из таблицы id</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q6" value="0">Выбирает id из всей базы данных</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q6" value="0">Выбирает id из всех таблиц, которые начинаются на table</label><br/>
+        </div>
+
+        <div class="question">
+          <p>Вопрос 7: Что такое оператор эквивалентности?</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q7" value="0">Переменная</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q7" value="0">Такого оператора не существует</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q7" value="0">Он сравнивает переменные на соответствие, но не на их тип</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q7" value="1">Он сравнивает переменные на соответствие и на их тип</label><br/>
+        </div>
+
+        <div class="question">
+          <p>Вопрос 8: Что делает этот код : UPDATE `db` SET `price` = '0';</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q8" value="0">Устанавливает новое значение для всей базы данных</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q8" value="1">Устанавливает новое значение в таблице db для поля price</label><br>
+          <label class="red__label"><input class="red__input" type="radio" name="q8" value="0">Устанавливает значение 0 в таблице price</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q8" value="0">Добавляет новое поле price со значением 0 в таблицу db</label><br/>
+        </div>
+
+        <div class="question">
+          <p>Вопрос 9: Какие арифметические операции существуют в PHP?</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q9" value="0">+, -, *, /</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q9" value="1">+, -, *, /, %</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q9" value="0">+, -, *, /, ^</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q9" value="0">+, -, *, /, \%</label><br/>
+        </div>
+
+        <div class="question">
+          <p>Вопрос 10: Какие типы переменных существуют в PHP?
+          </p>
+          <label class="red__label"><input class="red__input" type="radio" name="q10" value="0">int, float, string</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q10" value="0">int, float, string, char</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q10" value="1">int, float, string, bool</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q10" value="0">int, float, string, char, bool</label><br/>
+        </div>
+
+        <div class="question">
+          <p>Вопрос 11: Какой символ указывает переменную?</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q11" value="0">&</label><br/>
+		  <label class="red__label"><input class="red__input" type="radio" name="q11" value="0">#</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q11" value="0">!</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q11" value="1">$</label><br/>
+       </div>
+  
+        <div class="question">
+          <p>Вопрос 12: Как можно вывести 'Hello World' используя PHP?</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q12" value="0">'Hello World';</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q12" value="0">Document.Write('Hello World');</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q12" value="1">echo 'Hello World';</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q12" value="0">print ('Hello World');</label><br/>
+        </div>
+  
+        <div class="question">
+          <p>Вопрос 13: Выберите способ открытия файла 'sample.txt' для чтения:</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q13" value="0">open('sample.txt');</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q13" value="1">fopen('sample.txt','r');</label><br/>
+		  <label class="red__label"><input class="red__input" type="radio" name="q13" value="0">open('sample.txt','read');</label><br/>
+		  <label class="red__label"><input class="red__input" type="radio" name="q13" value="0">fopen('sample.txt','r+');</label><br/>
+        </div>
+		
+		<div class="question">
+			<p>Вопрос 14: Какой правильный способ увеличить на 1 значение переменной $count?</p>
+			<label class="green__label"><input class="green__input" type="radio" name="q14" value="1">$count++;</label><br/>	
+			<label class="red__label"><input class="red__input" type="radio" name="q14" value="0">++count</label><br/>
+			<label class="red__label"><input class="red__input" type="radio" name="q14" value="0">count++;</label><br/>
+			<label class="red__label"><input class="red__input" type="radio" name="q14" value="0">$count =+1</label><br/>
+		</div>
+		
+        <div class="question">
+          <p>Вопрос 15: Синтаксис РНР является самым близким к:</p>
+          <label class="green__label"><input class="green__input" type="radio" name="q5" value="1">Perl и C
+          </label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q15" value="0">JavaScript</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q15" value="0">VBScript</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q15" value="0">Python</label><br/>
+        </div>
+
+        <div class="question">
+          <p>Вопрос 16:  Как получаются данные из формы отправленные методом 'get'?</p>
+          <label class="green__label"><input class="green__input" type="radio" name="q16" value="1">$_GET[];</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q16" value="0">Request.QueryString;</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q16" value="0">Request.Form;</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q16" value="0">$_POST[];</label><br/>
+        </div>
+
+        <div class="question">
+          <p>Вопрос 17: Как декларировать функцию в PHP?</p>
+          <label class="green__label"><input class="green__input" type="radio" name="q17" value="1">function myFunction()</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q17" value="0">create myFunction()</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q17" value="0">new_function myFunction()</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q17" value="0">function : myFunction()</label><br/>
+        </div>
+
+        <div class="question">
+          <p>Вопрос 18: Чем отличается скрипт на языке PHP от скрипта на языке JavaScript?</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q18" value="0">ничем не отличаются</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q18" value="1">скрипт на языке JavaScript обрабатывается клиентом, а PHP-скрипт – сервером</label><br>
+          <label class="red__label"><input class="red__input" type="radio" name="q18" value="0">способом встраивания в HTML-код 
+          </label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q18" value="0">Серверной базой</label><br/>
+        </div>
+
+        <div class="question">
+          <p>Вопрос 19: Кем был создан PHP (автор)?</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q19" value="0">td</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q19" value="1">Расмус Лердорф</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q19" value="0">tr</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q19" value="0">head</label><br/>
+        </div>
+
+        <div class="question">
+          <p>Вопрос 20: Как расшифровывается аббревиатура PHP?</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q20" value="0">Personal Home Page / Form Interpreter</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q20" value="0">Personal Home Page Tools</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q20" value="1">Hypertext PreProcessor</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q20" value="0">Personal Home Page</label><br/>
+        </div>
+        
+
+      <br/>
+      <button class="btn" onClick="check_answers();">Узнать Результат</button>
+      <div id="score"></div>
+    </main>
+      <script src="js/main.js"></script>
+</body>
+</html>

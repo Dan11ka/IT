@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Тест по основам CSS</title>
+</head>
+<body>
+    <main>
+      <h1 class="zag-main">Тест по основам CSS</h1>
+
+        <div class="question">
+          <p>Вопрос 1: Какое свойство CSS используется для изменения цвета текста элемента?</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q1" value="0">trans-color</label><br/>
+		  <label class="red__label"><input class="red__input" type="radio" name="q1" value="0">color</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q1" value="0">fgcolor</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q1" value="1">text-color</label><br/>
+       </div>
+  
+        <div class="question">
+          <p>Вопрос 2: Как выбрать все элементы p внутри элемента div?</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q2" value="0">div.p</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q2" value="0">div + p</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q2" value="1">div p</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q2" value="0">div > p</label><br/>
+        </div>
+  
+        <div class="question">
+          <p>Вопрос 3: Как сделать так, чтобы каждое слово в тексте начиналось с заглавной буквы?</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q3" value="0">Это нельзя сделать через CSS</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q3" value="1">text-transform:capitalize</label><br/>
+		  <label class="red__label"><input class="red__input" type="radio" name="q3" value="0">transform:capitalize</label><br/>
+		  <label class="red__label"><input class="red__input" type="radio" name="q3" value="0">text-style:capitalize</label><br/>
+        </div>
+		
+		<div class="question">
+			<p>Вопрос 4: Как выбрать элемент с id = "block"?</p>
+			<label class="green__label"><input class="green__input" type="radio" name="q4" value="1">#block</label><br/>	
+			<label class="red__label"><input class="red__input" type="radio" name="q4" value="0">.block</label><br/>
+			<label class="red__label"><input class="red__input" type="radio" name="q4" value="0">block</label><br/>
+			<label class="red__label"><input class="red__input" type="radio" name="q4" value="0">*block</label><br/>
+		</div>
+		
+        <div class="question">
+          <p>Вопрос 5: Как можно изменить правый внешний отступ у элемента?</p>
+          <label class="green__label"><input class="green__input" type="radio" name="q5" value="1">margin-right</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q5" value="0">indent</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q5" value="0">border-right</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q5" value="0">padding-right</label><br/>
+        </div>
+
+        <div class="question">
+          <p>Вопрос 6: Какой правильный синтаксис CSS?</p>
+          <label class="green__label"><input class="green__input" type="radio" name="q6" value="1">body {color: black;}</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q6" value="0">body:color=black;</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q6" value="0">{body;color:black;}</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q6" value="0">{body:color=black;}</label><br/>
+        </div>
+
+        <div class="question">
+          <p>Вопрос 7: Какое значение по умолчанию у свойства position?</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q7" value="0">relative</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q7" value="0">fixed</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q7" value="0">absolute</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q7" value="1">static</label><br/>
+        </div>
+
+        <div class="question">
+          <p>Вопрос 8: Как правильно группировать селекторы?</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q8" value="0">Разделить каждый селектор знаком /
+          </label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q8" value="1">Разделить каждый селектор запятой</label><br>
+          <label class="red__label"><input class="red__input" type="radio" name="q8" value="0">Разделить каждый селектор пробелом</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q8" value="0">Разделить каждый селектор знаком +</label><br/>
+        </div>
+
+        <div class="question">
+          <p>Вопрос 9: Где в HTML-документе нужно вставлять ссылки на внешнюю таблицу стилей?</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q9" value="0">aside</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q9" value="1">body</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q9" value="0">footer</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q9" value="0">header</label><br/>
+        </div>
+
+        <div class="question">
+          <p>Вопрос 10:  Как выбрать элемент с class = "block"?</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q10" value="0">#block</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q10" value="0">block</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q10" value="1">.block
+          </label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q10" value="0">*block</label><br/>
+        </div>
+
+        <div class="question">
+          <p>Вопрос 11: Какое свойство используется для изменения шрифта элемента?</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q11" value="0">font-size</label><br/>
+		  <label class="red__label"><input class="red__input" type="radio" name="q11" value="0">font-weight</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q11" value="0">font-style </label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q11" value="1">font-family</label><br/>
+       </div>
+  
+        <div class="question">
+          <p>Вопрос 12: Как сделать текст жирным?</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q12" value="0">size:bold;</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q12" value="0">font:bold</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q12" value="1">font-weight:bold;</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q12" value="0">style:bold;</label><br/>
+        </div>
+  
+        <div class="question">
+          <p>Вопрос 13: Значение атрибута align не может быть</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q13" value="0">left</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q13" value="1">color</label><br/>
+		  <label class="red__label"><input class="red__input" type="radio" name="q13" value="0">center</label><br/>
+		  <label class="red__label"><input class="red__input" type="radio" name="q13" value="0">right</label><br/>
+        </div>
+		
+		<div class="question">
+			<p>Вопрос 14: Какое свойство CSS определяет размер текста?</p>
+			<label class="green__label"><input class="green__input" type="radio" name="q14" value="1">font-size</label><br/>	
+			<label class="red__label"><input class="red__input" type="radio" name="q14" value="0">text-size</label><br/>
+			<label class="red__label"><input class="red__input" type="radio" name="q14" value="0">text-style</label><br/>
+			<label class="red__label"><input class="red__input" type="radio" name="q14" value="0">font-style</label><br/>
+		</div>
+		
+        <div class="question">
+          <p>Вопрос 15: Какое из этих значений не может быть значением для font-size?</p>
+          <label class="green__label"><input class="green__input" type="radio" name="q5" value="1">4</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q15" value="0"> xx-large</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q15" value="0"> 2 mm</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q15" value="0"> 50%</label><br/>
+        </div>
+
+        <div class="question">
+          <p>Вопрос 16: Какое свойство нужно добавить в тег img, чтобы получить тень внутри картинки?</p>
+          <label class="green__label"><input class="green__input" type="radio" name="q16" value="1">box-shadow: inset 0 0 5px #000;</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q16" value="0">img-shadow: inset 5px #000;</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q16" value="0">box-shadow: 0 0 5px #000;</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q16" value="0">img-shadow: inset 0 0 5px #000;</label><br/>
+        </div>
+
+        <div class="question">
+          <p>Вопрос 17: Какое значение НЕ может быть у border-style?</p>
+          <label class="green__label"><input class="green__input" type="radio" name="q17" value="1">dotted</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q17" value="0">inset</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q17" value="0">название таблицы</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q17" value="0">groove</label><br/>
+        </div>
+
+        <div class="question">
+          <p>Вопрос 18: Как правильно задать тег, который будет описывать класс стиля для элемента div?</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q18" value="0">.class</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q18" value="1">#class</label><br>
+          <label class="red__label"><input class="red__input" type="radio" name="q18" value="0"> div:class</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q18" value="0">class:div</label><br/>
+        </div>
+
+        <div class="question">
+          <p>Вопрос 19: К какому селектору нужно применить свойство margin, чтобы изменить отступы на всей странице?</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q19" value="0">head</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q19" value="1">body</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q19" value="0">html</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q19" value="0"> title</label><br/>
+        </div>
+
+        <div class="question">
+          <p>Вопрос 20: Какой псевдокласс используется для описания стиля, который активируется при нахождении курсора в пределах элемента, но без щелчка по этому элементу?</p>
+          <label class="red__label"><input class="red__input" type="radio" name="q20" value="0">:active</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q20" value="0">:focus</label><br/>
+          <label class="green__label"><input class="green__input" type="radio" name="q20" value="1">:hover</label><br/>
+          <label class="red__label"><input class="red__input" type="radio" name="q20" value="0">:lang</label><br/>
+        </div>
+        
+
+      <br/>
+      <button class="btn" onClick="check_answers();">Узнать Результат</button>
+      <div id="score"></div>
+    </main>
+      <script src="js/main.js"></script>
+</body>
+</html>
